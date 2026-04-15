@@ -49,31 +49,6 @@ u1 {
 li {
   margin-bottom: 8px;
 }
-
-.projects {
-  display: grid;
-  grid-template-columns:
-repeat(auto-fit, minimax(220px,
-1fr));
-  gap: 20px;
-  margin-top: 20px;
-}
-.card {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  border-radius: 10px;
-  padding: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 10px 20px
-    rgba(0, 0, 0, 0.2);
-}
-.card h3 {
-  margin-bottom: 10px;
-  color: darkblue;
-}
 .botton-link {
   display: inline-block;
   margin-top: 10px;
@@ -88,6 +63,30 @@ repeat(auto-fit, minimax(220px,
 .button-link:active {
   background-color: darkmagenta;
 }
+.projects {
+  display: grid;
+  grid-template-columns:
+  repeat (auto-fit, minmax (200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.card {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: scale (1.03); 
+  box-shadow: 0 10px 20px
+    rgba (0, 0, 0, 0.2);
+}
+.card h3 {
+  margin-bottom: 10px;
+  color: darkblue;
+}
+
 .contact-link {
   color: purple;
   text-decoration:L none;
@@ -96,15 +95,6 @@ repeat(auto-fit, minimax(220px,
 .contact-link:active {
   color: darkmagenta;
   text-decoration: underline;
-}
-.card {
-  transition: transform 0.3s
-  ease, box-shadow 0.3s ease;
-}
-.card:hover {
-  transform: translateY (-5px);
-  box-shadow: 0 8px 16px 
-rgba (0, 0, 0, 0.2);
 }
 @media (max-width: 900px) {
   .projects {
