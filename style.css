@@ -94,3 +94,36 @@ repeat(3, 1fr);
 .card a:active {
   background-color: darkmagenta;
 }
+.card {
+  transitions: transform 0.3s
+  ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY (-5px);
+  box-shadow: 0 8px 16px 
+rgba (0, 0, 0, 0.2);
+}
+@media (max-width: 900px) {
+  .projects {
+    grid-template-columns:
+      repeat (2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .projects {
+    grid-template-column: 1fr;
+  }
+  .container {
+    padding: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  ul {
+    font-size: 16px;
+  }
+}
