@@ -1,9 +1,9 @@
 body {
   background-color: #add8e6;
-  font-family: Arial,
-sans-serif;
+  font-family: Arial, sans-serif;
   padding: 40px;
 }
+
 .container {
   background-color: white;
   max-width: 800px;
@@ -12,12 +12,14 @@ sans-serif;
   border-radius: 12px;
   border: 2px solid #cccccc;
 }  
+
 .hero {
   display: flex;
   align-items: center;
   gap: 25px;
   margin-bottom: 30px;
 }
+
 .profile-pic {
   width: 150px;
   height: 150px;
@@ -25,30 +27,37 @@ sans-serif;
   display: block;
   margin-bottom: 20px;
 }
+
 .hero-text {
   flex: 1;
 }
+
 h1 {
   color: darkblue;
   margin-bottom: 15px;
 }
+
 h2 {
   color: darkred;
   margin-top: 20px;
 }
+
 p {
   font-size: 20px;
   margin-bottom: 20px;
   line-height: 1.5;
 }
-u1 {
+
+ul {
   font-size: 18px;
   padding-left: 30px;
   margin-bottom: 20px;
 }
+
 li {
   margin-bottom: 8px;
 }
+
 .button-link {
   display: inline-block;
   margin-top: 10px;
@@ -59,18 +68,19 @@ li {
   text-decoration: none;
   border-radius: 8px;
 }
+
 .button-link:hover,
 .button-link:active {
-  background-color: 
-darkmagenta;
+  background-color: darkmagenta;
 }
+
 .projects {
   display: grid;
-  grid-template-columns:
-  repeat (auto-fit, minmax (200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   margin-top: 20px;
 }
+
 .card {
   background-color: #f8f8f8;
   border: 1px solid #cccccc;
@@ -78,11 +88,12 @@ darkmagenta;
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .card:hover {
-  transform: scale (1.03); 
-  box-shadow: 0 10px 20px
-    rgba (0, 0, 0, 0.2);
+  transform: scale(1.03); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
 .card h3 {
   margin-bottom: 10px;
   color: darkblue;
@@ -90,19 +101,21 @@ darkmagenta;
 
 .contact-link {
   color: purple;
-  text-decoration:L none;
+  text-decoration: none;
 }
+
 .contact-link:hover,
 .contact-link:active {
   color: darkmagenta;
   text-decoration: underline;
 }
+
 @media (max-width: 900px) {
   .projects {
-    grid-template-columns:
-      repeat (2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media (max-width: 600px) {
   .projects {
     grid-template-columns: 1fr;
