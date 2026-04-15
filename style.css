@@ -131,3 +131,12 @@ li {
     grid-template-columns: 1fr;
   }
 }
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px;
+}
+footer p {
+  font-size: 16px;
+  color: #555555;
+}
