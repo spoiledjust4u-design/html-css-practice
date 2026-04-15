@@ -88,12 +88,8 @@ li {
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.card p {
-  flex-grow: 1;
-}
 .card .button-link {
   margin-top: 15px;
-  align-self: flex-start;
 }
 .card:hover {
   transform: scale(1.03); 
