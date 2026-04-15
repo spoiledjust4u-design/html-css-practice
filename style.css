@@ -10,8 +10,15 @@ sans-serif;
   margin: 0 auto;
   padding: 30px;
   border-radius: 12px;
-  border: 2px solid #CCCCCC;
+  border: 2px solid #cccccc;
 }  
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
+}
 h1 {
   color: darkblue;
 }
