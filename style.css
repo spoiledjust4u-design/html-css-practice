@@ -95,7 +95,7 @@ repeat(3, 1fr);
   background-color: darkmagenta;
 }
 .card {
-  transitions: transform 0.3s
+  transition: transform 0.3s
   ease, box-shadow 0.3s ease;
 }
 .card:hover {
@@ -110,20 +110,7 @@ rgba (0, 0, 0, 0.2);
   }
 }
 @media (max-width: 600px) {
-  .hero {
-    flex-direction: column;
-    align-items: flex-start;
-  }
   .projects {
-    grid-template-column: 1fr;
-  }
-  .container {
-    padding: 20px;
-  }
-  p {
-    font-size: 18px;
-  }
-  ul {
-    font-size: 16px;
+    grid-template-columns: 1fr;
   }
 }
