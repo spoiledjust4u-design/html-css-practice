@@ -31,5 +31,15 @@ li {
   margin-bottom: 8px;
 }
 a {
-  color: purple;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+a:hover {
+  background-color:
+    darkmagenta:
 }
