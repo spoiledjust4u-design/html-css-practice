@@ -140,3 +140,17 @@ footer p {
   font-size: 16px;
   color: #555555;
 }
+.skills {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.skill-badge {
+  display: inline-block;
+  background-color: darkblue;
+  color: white;
+  padding: 10px 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+}
