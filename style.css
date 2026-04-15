@@ -67,7 +67,8 @@ a:active {
 .projects {
   display: grid;
   grid-template-columns:
-repeat(3, 1fr);
+repeat(auto-fit, minimax(220px,
+1fr));
   gap: 20px;
   margin-top: 20px;
 }
