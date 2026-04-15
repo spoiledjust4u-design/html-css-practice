@@ -30,7 +30,8 @@ u1 {
 li {
   margin-bottom: 8px;
 }
-a {
+a:link,
+a:visited {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 20px;
@@ -39,7 +40,7 @@ a {
   text-decoration: none;
   border-radius: 8px;
 }
-a:hover {
-  background-color:
-    darkmagenta;
+a:hover,
+a:active {
+  background-color: darkmagenta;
 }
