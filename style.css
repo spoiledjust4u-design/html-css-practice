@@ -146,3 +146,27 @@ footer p {
   border-radius: 20px;
   font-size: 16px;
 }
+@media (max-width: 600px; {
+  .hero{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .button-link {
+    display: block;
+    width: fit-content;
+    margin-bottom: 10px;
+  }
+}
