@@ -92,8 +92,9 @@ li {
   margin-top: 15px;
 }
 .card:hover {
-  transform: scale(1.03); 
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px
+    rgba(0, 0, 0, 0.2);
 }
 
 .card h3 {
@@ -166,7 +167,29 @@ footer p {
   }
   .button-link {
     display: block;
-    width: fit-content;
-    margin-bottom: 10px;
+    padding: 12px 20px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
   }
+  .button-link:hover {
+    background-color: darkmagenta;
+    transform:L translateY(-2px);
+}
+h2 {
+  color: darkred;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.skills,
+.projects,
+footer {
+  margin-top: 20px;
+}
+.skill-badge:hover {
+  background-color: purple;
+  transform: scale (1.05);
+  transition: 0.3s ease;
 }
